@@ -1,0 +1,43 @@
+@import 'reset'
+$main-dark: #03396a
+$grey-1: #e4e4e4
+$background-grey: #f3f3f3
+$main-color: #ff6500
+$border-color: #e4e4e4
+$zebra-color: #e9e9e9
+$header-color: #cdcdcd
+$table-grey-text: #828282
+$white: white
+$main-text-color: black
+$header-text-color: black
+$table-background-color: #ffffff
+$logo-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/logo.svg")
+$darkmode-toggle-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/darkmode-on.svg")
+
+body
+  color: $main-text-color
+  background:
+    color: $background-grey
+  display: flex
+
+
+  nav
+    display: flex
+    flex-flow: column nowrap
+    width: 100px
+    height: 100vh
+    background:
+      color: $main-dark
+    padding:
+      top: 30px
+
+  .main
+    height: 100vh
+    padding: 50px
+    
+    &__title
+      font-size: 48px
+
+    &__table
+      background:
+        color: $table-background-color
